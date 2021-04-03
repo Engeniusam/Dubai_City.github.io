@@ -1,0 +1,38 @@
+*{
+  list-style:none;
+  text-decoration: none;
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+body{
+  background-color: rgb(169,215,233);
+}
+div#main{
+  background-color: rgb(243,243,243);
+  width:60%;
+  margin-top:50px;
+  margin-left:auto;
+  margin-right: auto;
+  border:1px solid black;
+  border-radius:7px;
+}
+form{
+  width:80%;
+  margin-top:20px;
+  margin-left:auto;
+  margin-right:auto;
+}
+div#container{
+  display:flex;
+  flex:1;
+}
+div#container .a1{
+  flex:0.5;
+}
+div#container .a2{
+  flex:0.5;
+}
+label{
+  margin-right:15px;
+}
